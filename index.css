@@ -1,6 +1,25 @@
 body {
-    padding-top: 80px;
+    padding-top: 300px;
     text-align: center;
     background-color: black;
     color: whitesmoke;
 }
+
+button{
+    border-radius: 5px;
+    background:black;
+    color:whitesmoke;
+    border: solid 1px whitesmoke;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+     outline: none;
+      &:hover{
+        background:whitesmoke;
+        border: solid 1px whitesmoke;
+        color:black;
+        }
+    }
